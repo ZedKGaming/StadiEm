@@ -381,7 +381,7 @@ WRITE_STREAM_FAILURE:
 						{
 							// Captures a screenshot of active window using Win+Alt+PrintScreen
 							KeyboardSend.KeyDown(Keys.LWin);
-							System.Windows.Forms.SendKeys.SendWait("%{PRTSC}");
+							System.Windows.Forms.SendKeys.SendWait("{PRTSC}");
 							KeyboardSend.KeyUp(Keys.LWin);
 						}
 						catch
