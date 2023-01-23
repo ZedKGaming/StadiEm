@@ -4,8 +4,8 @@ Allows the Stadia controller to emulate an Xbox 360 controller
 
 ### Supported Functions:
 - All standard buttons are mapped to their Xbox 360 counterparts
-- Capture button captures screenshot of active window
-- Assistant button captures a video clip of the past 30 seconds
+- Capture button captures screenshot of the entire desktop
+- Assistant button presses the default keybind for the unofficial Google Assistant Desktop Client
 - Analog Triggers
 - Vibration
 
