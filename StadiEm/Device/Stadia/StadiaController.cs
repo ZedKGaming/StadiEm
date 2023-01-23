@@ -379,7 +379,7 @@ WRITE_STREAM_FAILURE:
 					{
 						try
 						{
-							// Captures a screenshot of active window using Win+Alt+PrintScreen
+							// Captures a screenshot of the entire desktop using Win+PrintScreen
 							KeyboardSend.KeyDown(Keys.LWin);
 							System.Windows.Forms.SendKeys.SendWait("{PRTSC}");
 							KeyboardSend.KeyUp(Keys.LWin);
@@ -393,9 +393,9 @@ WRITE_STREAM_FAILURE:
 					{
 						try
 						{
-							// Records Last 30 Seconds using Win+Alt+G
-							KeyboardSend.KeyDown(Keys.LWin);
-							System.Windows.Forms.SendKeys.SendWait("%{g}");
+                            // Pressing the default keybind for the unofficial Google Assistant Desktop Client (https://github.com/Melvin-Abraham/Google-Assistant-Unofficial-Desktop-Client/)
+                            KeyboardSend.KeyDown(Keys.LWin);
+							System.Windows.Forms.SendKeys.SendWait("+{a}");
 							KeyboardSend.KeyUp(Keys.LWin);
 						}
 						catch
