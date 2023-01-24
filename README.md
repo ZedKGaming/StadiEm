@@ -1,6 +1,7 @@
 ### StadiEm
 
 Allows the Stadia controller to emulate an Xbox 360 controller
+
 NOTE: Using Bluetooth currently crashes the program. Until we get a fix from the original creator of this repo, I can't do anything else, I just compiled it.
 
 ### Supported Functions:
